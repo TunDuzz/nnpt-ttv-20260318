@@ -184,7 +184,13 @@ let dataUser = [
     }
 ]
 
+// Giữ lại dữ liệu giả cho các route cũ (products/categories) đang dùng in-memory
+let dataCategories = [];
+let dataProducts = [];
+
 module.exports = {
     dataRole,
-    dataUser
+    dataUser,
+    dataCategories,
+    dataProducts
 };
